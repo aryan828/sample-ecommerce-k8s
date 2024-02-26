@@ -4,6 +4,15 @@
 
 This project aims to deploy an e-commerce application using Kubernetes. The application consists of multiple components including a frontend web application, backend API services, a MongoDB database for data persistence, and RabbitMQ for handling asynchronous message processing. Kubernetes manifests are provided to facilitate the deployment and management of these components in a Kubernetes cluster.
 
+## Application Architecture
+
+The e-commerce application consists of the following components:
+
+1. **Frontend**: A React-based web application served by an Nginx server.
+2. **Backend API**: A set of Node.js microservices handling various business operations.
+3. **Database**: A MongoDB cluster for data persistence.
+4. **Message Queue**: RabbitMQ for handling order processing asynchronously.
+
 ## Repository Structure
 
 The repository is structured as follows:
