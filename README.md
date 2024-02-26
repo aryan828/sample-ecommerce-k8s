@@ -224,12 +224,9 @@ kubectl apply -f frontend/
    - Perform connection stability tests between the backend pods and MongoDB instances using tools like `telnet` or `nc` (netcat) to verify network connectivity.
    - Monitor connection establishment times and latency to identify potential network issues or bottlenecks.
 
-### Troubleshooting Guide
+### RabbitMQ Order Processing Delays
 
-#### 3. Order Processing Delays
-
-- **Issue**: Users report delays in order processing, suspecting issues with the RabbitMQ message queue.
-- **Task**: Analyze and optimize the message queue setup, ensuring efficient message processing and minimal latency.
+**Issue**: Users report delays in order processing, suspecting issues with the RabbitMQ message queue.
 
 **Steps to Troubleshoot**:
 
